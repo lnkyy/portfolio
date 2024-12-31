@@ -1,5 +1,39 @@
+.pokeball-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    /*margin: auto;*/
+    width: 33%;
+    font-size: 20px;
+}
+
+
 #pokeball{
-    background-color: aqua;
     width: 300px;
     height: 250px;
+    margin: 0 10px;
 }
+
+#three{
+    content: url(/images/svg/lien.svg);
+}
+
+
+@media screen and (max-width: 1080px) {
+    .pokeball-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+        width: auto;
+        font-size: 16px;
+    }
+    
+  }
+
+
+ 

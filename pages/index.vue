@@ -21,15 +21,7 @@
             </div>
         </div>
         <div class="acceuil-block" id="pokeball-div-container">
-            <div class="pokeball-div">
-                <p>voici 1 modele 3d</p>
-            </div>
-            <div class="pokeball-div">
-                <Pokeball></Pokeball>
-            </div>
-            <div class="pokeball-div">
-                <p>je voulais faire mumuse</p>
-            </div>
+            <Pokeball></Pokeball>
         </div>
         <div class="acceuil-block">
             <h1>Courte descri</h1>
