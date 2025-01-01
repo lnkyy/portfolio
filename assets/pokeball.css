@@ -15,10 +15,6 @@
     margin: 0 10px;
 }
 
-#three{
-    content: url(/images/svg/lien.svg);
-}
-
 
 @media screen and (max-width: 1080px) {
     .pokeball-div {

@@ -25,26 +25,39 @@
                 </div>
             </div>
         </div>
-        <div class="acceuil-block" id="pokeball-div-container">
-            <Pokeball></Pokeball>
+        <div class="acceuil-block column">
+            <div class="block-cent">
+                <p>Au cours de mon apprentissage, j'ai pu réaliser pas mal de projet, en voici quelques uns:</p>
+            </div>
+            <div class="block-cent">
+                <div class="container-tiles">
+                    <ProjetTile v-for="projet in projets" :projet="projet"></ProjetTile>
+                </div>
+                <div id="comp-container">
+                    <NuxtLink to="/projets" class="savoir-plus">Mes projets</NuxtLink>
+                </div>
+            </div>
         </div>
-        <div class="acceuil-block">
-            <h1>projet comme descri ou je c pas</h1>
+        <div class="acceuil-block column">
+            <p>Compétences ici</p>>
         </div>
     </main>
     <Footer></Footer>
 </template>
 <script setup>
-    import texteIntroJson from '~/static/data/texteIntro.json'; 
+    import texteIntroJson from '~/static/data/texteIntro.json';
+    import projetsJson from '~/static/data/projets.json'; 
 
     import '~/assets/acceuil.css';
 
     import Header from './components/header.vue'
     import navBar from './components/navBar.vue';
     import Footer from './components/footer.vue';
-    import Pokeball from './components/pokeball.vue';
+    import ProjetTile from './components/projetTile.vue';
 
     let texteIntro = texteIntroJson.texte;
+    let projets = ref(projetsJson);
+
     
 
 </script>

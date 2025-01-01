@@ -95,3 +95,7 @@ text-decoration: none;
     transition: 100ms;
   }
   
+
+  .detail::before{
+    content: url(/images/svg/lien.svg);
+  }

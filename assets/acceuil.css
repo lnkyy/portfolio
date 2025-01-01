@@ -1,7 +1,11 @@
 #accueil{
-    padding: 5px 0 0 0;
-    margin: 20px 0 0 0;
+    padding: 5px 0 5px 0;
+    margin: 20px 0 20px 0;
     background-color: #f8e4f7;
+}
+
+.pageActive{
+    background-color: #dac0fc;
 }
 
 .acceuil-block{
@@ -92,12 +96,48 @@
     flex-direction: row-reverse;
 }
 
+#comp-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
 #dresseur{
     width: 200px;
     border-radius: 25px;
 }
 
-/*container-texte*/
+.block-cent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.container-tiles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0 ;
+    width: 200px;
+    height: 200px;
+}
+
+
 @media screen and (max-width: 850px) {
     #container-texte{
         font-size: 16px;

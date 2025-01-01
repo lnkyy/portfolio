@@ -10,7 +10,7 @@
     </div>
     <div class="pokeball-div" id="bonus" >
         <p>
-            Ceci a été réaliser pour m'amuser dans mon temps libre. La librairie utilisé est Three.js. Pour accéder à la librairie vous pouvez suivre ce lien <NuxtLink to="https://threejs.org"   id="three" class="lien"></NuxtLink>
+            Ceci a été réaliser pour m'amuser dans mon temps libre. La librairie utilisé est Three.js. Pour accéder à la librairie vous pouvez suivre ce lien <NuxtLink to="https://threejs.org"   id="three" class="lien detail"></NuxtLink>
         </p>
         
     </div>

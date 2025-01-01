@@ -4,6 +4,10 @@ nav{
   margin: 15px auto 5px auto;
 }
 
+nav > a{
+  background-color: white;
+}
+
 /*Style des boutons*/
 .menu {
     display: flex;
@@ -16,7 +20,6 @@ nav{
     border-radius: 50px;
     cursor: pointer;
     border: 0;
-    background-color: white;
     color: black;
     box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
     letter-spacing: 1px;
@@ -109,12 +112,6 @@ nav{
   position: absolute;
   z-index: 1;
 }
-
-
-.pageActive{
-  background-color: #dac0fc;
-}
-
 
 @media screen and (max-width: 750px) {
   .menu{
