@@ -11,7 +11,7 @@
 </template>
 <script setup>
     defineProps({
-        projet:String
+        projet:Object
     });
 
 
