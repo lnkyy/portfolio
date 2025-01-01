@@ -22,13 +22,13 @@
     display: flex;
     height: 200px;
     justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    flex-direction: column;
 }
 
 .un-tier{
     width: 33%;
     text-align: center;
+    align-items: center;
 }
 .deux-tier{
     width: 66%;
@@ -37,9 +37,17 @@
     border: 1px solid #2e2c2c;
 
     display: flex;
-    height: 195px;
     justify-content: center;
     align-items: center;
+}
+
+#acceuil-sep{
+    height: 195px;
+}
+
+#about-sep{
+    height: 175px;
+    margin: 0 15px;
 }
 
 #container-pp{
@@ -54,12 +62,39 @@
     padding: 0 10px;
 }
 
+#container-intro{
+    margin-bottom: 20px;
+}
+
 #pokeball-div-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
     justify-content: center;
+}
+
+.quatre-vingt{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.vingt{
+    width: 30%;
+}
+
+#about-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#dresseur{
+    width: 200px;
+    border-radius: 25px;
 }
 
 /*container-texte*/

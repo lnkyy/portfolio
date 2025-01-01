@@ -15,17 +15,18 @@
                     id="container-pp"
                     />
             </div>
-            <p class="separateur-vertical"></p>
+            <p class="separateur-vertical" id="acceuil-sep"></p>
             <div class="deux-tier intro" id="container-texte">
-                <p>{{ texteIntro }}</p>
+                <div id="container-intro">
+                    <p>{{ texteIntro }}</p>
+                </div>
+                <div id="about-container">
+                    <NuxtLink to="/about" class="savoir-plus">En savoir plus</NuxtLink>
+                </div>
             </div>
         </div>
         <div class="acceuil-block" id="pokeball-div-container">
             <Pokeball></Pokeball>
-        </div>
-        <div class="acceuil-block">
-            <h1>Courte descri</h1>
-            <p>avec moi dresseur + bouton pour accéder à la page (cliquer pour voir plus ou un truc du genre)</p>
         </div>
         <div class="acceuil-block">
             <h1>projet comme descri ou je c pas</h1>
@@ -34,7 +35,8 @@
     <Footer></Footer>
 </template>
 <script setup>
-    import texteIntroJson from '~/static/data/texteIntro.json';
+    import texteIntroJson from '~/static/data/texteIntro.json'; 
+
     import '~/assets/acceuil.css';
 
     import Header from './components/header.vue'
