@@ -111,6 +111,11 @@ nav{
 }
 
 
+.pageActive{
+  background-color: #dac0fc;
+}
+
+
 @media screen and (max-width: 750px) {
   .menu{
     font-size: 0px;

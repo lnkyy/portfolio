@@ -8,5 +8,26 @@
 </template>
 <script setup>
   import '~/assets/navBar.css';
+  
+  onMounted( () => {
+    let pageActiveList = document.getElementsByClassName("router-link-active");
+    let boutonHome = document.getElementById("homeAccueil");
+    let pageActive;
+
+    if(pageActiveList[0] === boutonHome)
+    {
+      pageActive = pageActiveList[1]
+      pageActive.classList.add("pageActive");
+    }
+    else
+    {
+      pageActive = pageActiveList[0]
+      pageActive.classList.add("pageActive");
+    }
+
+    
+
+  })
+  
 
 </script>
