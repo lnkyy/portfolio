@@ -17,12 +17,24 @@
     if(pageActiveList[0] === boutonHome)
     {
       pageActive = pageActiveList[1]
-      pageActive.classList.add("pageActive");
+      console.log(pageActive.id);
+      pageActive.classList.add("pageActiveHome");
     }
     else
     {
       pageActive = pageActiveList[0]
-      pageActive.classList.add("pageActive");
+      if(pageActive.id === "a-propos")
+      {
+        pageActive.classList.add("pageActiveAbout");
+      }
+      else if(pageActive.id === "projets")
+      {
+        pageActive.classList.add("pageActiveProjet");
+      }
+      else
+      {
+        pageActive.classList.add("pageActiveProjet");
+      }
     }
 
     

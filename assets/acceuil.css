@@ -1,26 +1,7 @@
-#accueil{
-    padding: 5px 0 5px 0;
-    margin: 20px 0 20px 0;
-    background-color: #f8e4f7;
-}
-
-.pageActive{
-    background-color: #dac0fc;
-}
-
 .acceuil-block{
     background-color: #dac0fc;
-    margin: 30px ;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-
-    border-radius: 20px;
-    border: 1px black solid;
+   
 }
-
-
 
 .intro{
     display: flex;

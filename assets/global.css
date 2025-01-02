@@ -22,7 +22,22 @@ p, span, strong, a{
 }
 
 
+.main{
+  padding: 5px 0 5px 0;
+  margin: 20px 0 20px 0;
+  background-color: #f8e4f7;
+}
 
+.block-info{
+  margin: 30px ;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-radius: 20px;
+  border: 1px black solid;
+}
 
 .home::before{
     content: url(/images/svg/house.svg);
@@ -99,3 +114,21 @@ text-decoration: none;
   .detail::before{
     content: url(/images/svg/lien.svg);
   }
+
+
+  .pageActiveHome{
+    background-color: #dac0fc;
+}
+
+
+.pageActiveAbout{
+  background-color: #DDDBFF;
+}
+
+.pageActiveProjet{
+  background-color: #ec14e2;
+}
+
+.pageActiveProjet{
+  background-color: #02e815e8;
+}

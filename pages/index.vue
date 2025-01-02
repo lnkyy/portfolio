@@ -4,8 +4,8 @@
     </Head>
     <Header></Header>
     <navBar></navBar>
-    <main id="accueil">
-        <div class="acceuil-block">
+    <main id="accueil" class="main">
+        <div class="acceuil-block block-info">
             <div class="un-tier intro">
                 <NuxtImg 
                     src="/images/Marius.jpg"
@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="acceuil-block column">
+        <div class="acceuil-block column block-info">
             <div class="block-cent">
                 <p>Au cours de mon apprentissage, j'ai pu réaliser pas mal de projet, en voici quelques uns:</p>
             </div>
