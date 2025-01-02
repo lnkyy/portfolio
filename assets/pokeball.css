@@ -4,8 +4,6 @@
     align-items: center;
     justify-content: center;
     text-align: justify;
-    /*margin: auto;*/
-    width: 33%;
 }
 
 
@@ -31,4 +29,7 @@
   }
 
 
- 
+ .texteGauche{
+    width: 100%;
+    text-align: left;
+ }

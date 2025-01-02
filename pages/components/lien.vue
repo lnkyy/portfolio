@@ -1,5 +1,5 @@
 <template>
-  <p class="lien-proj">{{ titre }} <NuxtLink class="lien" :to="`${lien}`">
+  <p class="lien-proj" :class="classP">{{ titre }} <NuxtLink class="lien" :to="`${lien}`">
           <NuxtImg
               src="/images/svg/lien.svg"
               alt="lien"
@@ -11,7 +11,8 @@
 <script setup>
   defineProps({
       titre:String,
-      lien:String
+      lien:String,
+      classP:String
   });
 </script>
 <style>

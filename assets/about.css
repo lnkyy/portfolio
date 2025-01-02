@@ -1,3 +1,45 @@
 .about-block{
     background-color: #DDDBFF;
 }
+
+
+#pokeball-div-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.quatre-vingt{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vingt{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#moi-dresseur{
+    height: 600px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#container-pp-about
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    padding-right: 10px;
+}

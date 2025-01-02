@@ -1,22 +1,20 @@
 <template>
     <div class="pokeball-div">
-        <p>
-            <span>Voici un modèle 3D d'une pokeball qui tourne sur elle même. </span>
-            <span>Le modèle 3D a été réalisé avec Blender</span>
-        </p>
-    </div>
-    <div class="pokeball-div">
         <canvas id="pokeball" ref="pokeball"></canvas>
     </div>
     <div class="pokeball-div" id="bonus" >
         <p>
-            Ceci a été réaliser pour m'amuser dans mon temps libre. La librairie utilisé est Three.js. Pour accéder à la librairie vous pouvez suivre ce lien <NuxtLink to="https://threejs.org"   id="three" class="lien detail"></NuxtLink>
+            <span>Voici un modèle 3D d'une pokeball réalisé avec Blender qui tourne sur elle même. </span>
+            <span>Ceci a été réaliser pour m'amuser sur mon temps libre. La librairie utilisé est Three js.</span>
         </p>
-        
+        <Lien titre="Vous pouvez cliquer sur le lien pour accèder à la librairie" lien="https://threejs.org" classP="texteGauche"></Lien>
     </div>
 </template>
 <script setup>
     import '~/assets/pokeball.css';
+    
+    import Lien from './lien.vue';
+    
     import {Scene, WebGLRenderer, PerspectiveCamera, AmbientLight } from "three";
     import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 

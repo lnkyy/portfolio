@@ -56,23 +56,26 @@ content: url(/images/svg/comp.svg);
 }
 
 .lien{
-text-decoration: none; 
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
 }
 
 .lien:link { 
-text-decoration: none; 
+  text-decoration: none; 
 } 
 
 .lien:visited { 
-text-decoration: none; 
+  text-decoration: none; 
 } 
 
 .lien:hover { 
-text-decoration: none; 
+  text-decoration: none; 
 }
 
 .lien:active { 
-text-decoration: none; 
+  text-decoration: none; 
 }
 
 
