@@ -38,9 +38,6 @@
                 </div>
             </div>
         </div>
-        <div class="acceuil-block column">
-            <p>Compétences ici</p>>
-        </div>
     </main>
     <Footer></Footer>
 </template>

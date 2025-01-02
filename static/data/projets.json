@@ -2,29 +2,33 @@
     {
         "idProjet":1,
         "titre":"Pokedex Js",
-        "objectif":"",
-        "description":"",
-        "images":"/images/photo.jpg"
+        "objectif":"Développer une appli web en JS pour vaoir le pokdex national de Pokemon filtrable par différent critères",
+        "description":"L'objectif de ce projet est de construire une WebApp qui affichera des informations sur les Pokémons, et permettra de rechercher, trier, filtrer les Pokémons et leurs informations en fonction de divers critères qui vous seront détaillés ultérieurement. Cette WebApp permettra en outre de simuler des affrontements entre Pokémons dans une version simplifiée. Une WebApp est une page web qui se comporte comme une application traditionnelle, à savoir un rafraîchissement dynamique du contenu affiché sans faire appel à des chargements de nouvelles pages HTML. Une telle application porte aussi le nom d’Application Web Monopage (Single Page App). Vous aurez à manipuler le DOM. Les données qui serviront à remplir votre application proviendront d’un API Web Service.",
+        "images":"/images/pokedex.png",
+        "alt":"projet pokedex Js"
     },
     {
         "idProjet":2,
         "titre":"Portfolio",
         "objectif":"",
         "description":"",
-        "images":"/images/photo.jpg"
+        "images":"/images/portfolio.png",
+        "alt":"projet pokedex Js"
     },
     {
         "idProjet":3,
         "titre":"Cheval Blanc",
         "objectif":"",
         "description":"",
-        "images":"/images/photo.jpg"
+        "images":"/images/chevalBlanc.svg",
+        "alt":"Logo site de location de maison"
     },
     {
         "idProjet":4,
         "titre":"puissance 4",
         "objectif":"",
         "description":"",
-        "images":"/images/photo.jpg"
+        "images":"/images/puissance_4.webp",
+        "alt":"projet pokedex Js"
     }
 ]
