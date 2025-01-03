@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Limelight&family=Noto+Sans+JP:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+body{
+    margin: 0 8px;
+    background-color: #1b1b1b    ;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: "Space Grotesk", serif;
+    margin: 0;
+}
+
+p, span, strong, a{
+    font-family: "Noto Sans JP", serif;
+}
+
+.separateur{
+    height: 0;
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 2px 0 6px 0;
+}
+
+
+.main{
+  padding: 5px 0 5px 0;
+  margin: 20px 0 20px 0;
+  background-color: #f8e4f7;
+}
+
+.block-info{
+  margin: 30px ;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-radius: 20px;
+  border: 1px black solid;
+}
+
+.home::before{
+    content: url(/images/svg/house.svg);
+  }
+
+.a-propos::before{
+content: url(/images/svg/users-round.svg);
+}
+
+.projets::before{
+content: url(/images/svg/notebook-pen.svg);
+}
+
+.comp::before{
+content: url(/images/svg/comp.svg);
+}
+
+.lien{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+}
+
+.lien:link { 
+  text-decoration: none; 
+} 
+
+.lien:visited { 
+  text-decoration: none; 
+} 
+
+.lien:hover { 
+  text-decoration: none; 
+}
+
+.lien:active { 
+  text-decoration: none; 
+}
+
+
+
+.savoir-plus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    color: black;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+
+.savoir-plus:hover {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  .savoir-plus:active {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transition: 100ms;
+  }
+  
+
+  .detail::before{
+    content: url(/images/svg/lien.svg);
+  }
+
+
+  .pageActiveHome{
+    background-color: #dac0fc;
+}
+
+
+.pageActiveAbout{
+  background-color: #DDDBFF;
+}
+
+.pageActiveProjet{
+  background-color: #ec14e2;
+}
+
+.pageActiveProjet{
+  background-color: #02e815e8;
+}

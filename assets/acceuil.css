@@ -1,0 +1,173 @@
+.acceuil-block{
+    background-color: #dac0fc;
+   
+}
+
+.intro{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.un-tier{
+    width: 33%;
+    text-align: center;
+    align-items: center;
+}
+.deux-tier{
+    width: 66%;
+}
+.separateur-vertical{
+    border: 1px solid #2e2c2c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#acceuil-sep{
+    height: 195px;
+}
+
+#about-sep{
+    height: 175px;
+    margin: 0 15px;
+}
+
+#container-pp{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+#container-texte{
+    text-align: center;
+    padding: 0 10px;
+}
+
+#container-intro{
+    margin-bottom: 20px;
+}
+
+#about-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#comp-container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+#dresseur{
+    width: 200px;
+    border-radius: 25px;
+}
+
+.block-cent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.container-tiles{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 0 ;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.projet-tile-img{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 850px) {
+    #container-texte{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    .intro{
+        font-size: 16px;
+    }
+
+    #pokeball-div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    #bonus{
+        display: none;
+    }
+
+    #container-pp {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        padding-right: 10px;
+  }
+}
+
+  @media screen and (max-width: 550px) {
+
+    #container-texte{
+        font-size: 12px;
+    }
+
+    #pokeball-div-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+
+    #bonus{
+        display: none;
+    }
+
+    #container-pp {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        padding-right: 10px;
+  }
+}
