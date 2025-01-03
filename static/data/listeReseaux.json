@@ -1,0 +1,17 @@
+[
+    {
+        "nom":"Linkedin",
+        "lien":"https://www.linkedin.com/in/marius-moreau-499ab9268",
+        "logo":"/images/linkedin.png"
+    },
+    {
+        "nom":"Github",
+        "lien":"https://github.com/lnkyy/",
+        "logo":"/images/github.png"
+    },
+    {
+        "nom":"instagram",
+        "lien":"https://www.instagram.com/marius.mro/",
+        "logo":"/images/insta.png"
+    }
+]

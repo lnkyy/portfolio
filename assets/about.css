@@ -43,3 +43,62 @@
     border-radius: 20px;
     padding-right: 10px;
 }
+
+.cent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.separateur-plat{
+    border: 1px solid #2e2c2c;
+    width: 95%;
+}
+
+.labelReseaux{
+    margin:0 10px;
+}
+
+.block-gauche{
+    width: 100%;
+
+}
+
+.container-tiles-reseaux{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img-reseau{
+    width: 100px;
+    height: 100px;
+}
+
+.tile-reseau{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 45px;
+}
+
+.tile-reseau-lien{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
