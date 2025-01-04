@@ -108,6 +108,9 @@
     margin: 10px;
 }
 
+#acceuil-sep-plat{
+    display: none;
+}
 
 @media screen and (max-width: 850px) {
     #container-texte{
@@ -118,24 +121,14 @@
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 
-    .intro{
-        font-size: 16px;
+
+
+    #container-intro {
+        margin-bottom: 10px;
     }
 
-    #pokeball-div-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    
-
-    #bonus{
-        display: none;
-    }
 
     #container-pp {
         width: 130px;
@@ -145,7 +138,7 @@
   }
 }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 600px) {
 
     #container-texte{
         font-size: 12px;
@@ -159,15 +152,31 @@
         justify-content: center;
     }
     
-
-    #bonus{
-        display: none;
-    }
-
     #container-pp {
         width: 110px;
         height: 110px;
         border-radius: 50%;
         padding-right: 10px;
   }
+
+    #acceuil-sep{
+        display: none;
+    }
+
+    #acceuil-sep-plat{
+        display: block;
+    }
+
+
+    #container-block-intro{
+        flex-direction: column;   
+    }
+
+    .deux-tier{
+        width: 100%;
+    }
+
+    .intro{
+        height:auto;
+    }
 }

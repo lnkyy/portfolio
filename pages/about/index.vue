@@ -18,9 +18,10 @@
                             loading="lazy"
                             />
                     </div>
-                    <p class="separateur-vertical" id="acceuil-sep"></p>
+                    <p class="separateur-vertical" id="about-sep" ></p>
+                    <hr class="separateur-plat" id="about-sep-plat"/>
                     <div class="deux-tier intro" id="container-texte">
-                        <p>{{ texteIntro }}</p>
+                        <p class="text-about">{{ texteIntro }}</p>
                     </div>
                 </div>
                 <div id="pokeball-div-container" class="about-block block-info">
@@ -38,7 +39,6 @@
                     />
             </div>
         </div>
-        <!--<p>{{ complement }}</p>-->
         <div  class=" block-info about-block column">
             <div class="cent">
                 <div>
@@ -53,8 +53,28 @@
                 </div>
                 <hr class="separateur-plat"/>
             </div>
-            <div v-if="aboutRadio === 'Etudes'">
-                <p>{{aboutRadio}}</p>
+            <div v-if="aboutRadio === 'Etudes'" class="container-tiles-reseaux">
+                <h2 class="block-gauche">Mes Études</h2>
+                <div class="list-etudes">
+                    <div >
+                        <p>
+                            <span>- 2021 - 2022 : </span>
+                            <span>Bac général Spécialité NSI & Mathématique mention Assez bien</span>
+                        </p>   
+                        <p>
+                            <span>- 2021 - 2022 : </span>
+                            <span>Diplome du Cambridge Niveau B2</span>
+                        </p>   
+                        <p>
+                            <span>- 2022 - 2025 : </span>
+                            <span>But informatique à l'iut de Lannion</span>
+                        </p>
+                        <p>
+                            <span>- 2023 - 2025 : </span>
+                            <span>Alternant à CGi</span>
+                        </p>     
+                    </div>
+                </div>
             </div>
             <div v-if="aboutRadio === 'Reseaux'" class="container-tiles-reseaux">
                 <h2 class="block-gauche">Mes Réseaux</h2>

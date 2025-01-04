@@ -102,3 +102,68 @@
     justify-content: center;
     gap: 5px;
 }
+
+
+.list-etudes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    margin: 0 0 0 50px;
+}
+
+#about-sep-plat{
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    #container-pp-about{
+        width: 150px;
+        height: 150px;
+        border-radius: 30px;
+        padding-right: 5px;
+    }
+
+    .block-info {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .text-about{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .vingt{
+        display: none;
+    }
+
+    .quatre-vingt{
+        width: 100%;
+    }
+
+
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .about-block{
+        flex-direction: column;
+    }
+
+    #about-sep{
+        display: none;
+    }
+
+    #about-sep-plat{
+        display: block;
+    }
+}

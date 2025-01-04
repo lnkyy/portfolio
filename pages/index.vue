@@ -5,7 +5,7 @@
     <Header></Header>
     <navBar></navBar>
     <main id="accueil" class="main">
-        <div class="acceuil-block block-info">
+        <div class="acceuil-block block-info" id="container-block-intro">
             <div class="un-tier intro">
                 <NuxtImg 
                     src="/images/Marius.jpg"
@@ -16,9 +16,10 @@
                     />
             </div>
             <p class="separateur-vertical" id="acceuil-sep"></p>
+            <hr class="separateur-plat" id="acceuil-sep-plat"/>
             <div class="deux-tier intro" id="container-texte">
                 <div id="container-intro">
-                    <p>{{ texteIntro }}</p>
+                    <p class="texte-intro">{{ texteIntro }}</p>
                 </div>
                 <div id="about-container">
                     <NuxtLink to="/about" class="savoir-plus">En savoir plus</NuxtLink>
