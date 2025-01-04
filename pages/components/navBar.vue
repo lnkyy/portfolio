@@ -17,7 +17,6 @@
     if(pageActiveList[0] === boutonHome)
     {
       pageActive = pageActiveList[1]
-      console.log(pageActive.id);
       pageActive.classList.add("pageActiveHome");
     }
     else

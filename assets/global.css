@@ -135,3 +135,12 @@ content: url(/images/svg/comp.svg);
 .pageActiveProjet{
   background-color: #02e815e8;
 }
+
+
+@media screen and (max-width: 1080px) {
+
+  p, span, strong, a{
+    font-size: 14px;
+  }
+}
+
