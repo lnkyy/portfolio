@@ -2,18 +2,31 @@
     {
         "idProjet":1,
         "titre":"Pokedex Js",
-        "objectif":"Développer une appli web en JS pour vaoir le pokdex national de Pokemon filtrable par différent critères",
+        "objectif":"Développer une appli web en JS pour avoir le pokdex national de Pokemon filtrable par différent critères",
         "description":"L'objectif de ce projet est de construire une WebApp qui affichera des informations sur les Pokémons, et permettra de rechercher, trier, filtrer les Pokémons et leurs informations en fonction de divers critères qui vous seront détaillés ultérieurement. Cette WebApp permettra en outre de simuler des affrontements entre Pokémons dans une version simplifiée. Une WebApp est une page web qui se comporte comme une application traditionnelle, à savoir un rafraîchissement dynamique du contenu affiché sans faire appel à des chargements de nouvelles pages HTML. Une telle application porte aussi le nom d’Application Web Monopage (Single Page App). Vous aurez à manipuler le DOM. Les données qui serviront à remplir votre application proviendront d’un API Web Service.",
         "images":"/images/pokedex.png",
-        "alt":"projet pokedex Js"
+        "alt":"projet pokedex Js",
+        "technos":{
+            "Javascript":98,
+            "Html":2
+        },
+        "avis":"Très bon projet pour apprendre le Javascript et très amusant à réaliser en tant que fan de Pokemon",
+        "role":"Chef de projet / developpeur dans une équipe de 2"
     },
     {
         "idProjet":2,
         "titre":"Portfolio",
-        "objectif":"",
-        "description":"",
+        "objectif":"Avoir un site à mon image viable pour chercher du travail",
+        "description":"Réaliser un site web à mon image pour me présenter et rassembler mes compétences afin de s'en servir comme support, notamment dans la recherche de travail",
         "images":"/images/portfolio.png",
-        "alt":"projet pokedex Js"
+        "alt":"Projet Portfolio",
+        "technos":{
+            "Vue":50,
+            "Javascript":30,
+            "Css":20
+        },
+        "avis":"J'ai beaucoup aimé faire mon Portfolio, car il est à mon image",
+        "role":"Tout, car je suis seul pour le réaliser"
     },
     {
         "idProjet":3,
@@ -21,7 +34,15 @@
         "objectif":"",
         "description":"",
         "images":"/images/chevalBlanc.svg",
-        "alt":"Logo site de location de maison"
+        "alt":"Logo site de location de maison",
+        "technos":{
+            "Php":50,
+            "Laravel":20,
+            "PostgresSQL":20,
+            "Css":10
+        },
+        "avis":"Projet sympa hormis le choix de laravel qui a rendus le projet plus difficile et long à mettre en plus",
+        "role":"Product Owner / développeur sur une équipe de 6"
     },
     {
         "idProjet":4,
@@ -29,6 +50,11 @@
         "objectif":"",
         "description":"",
         "images":"/images/puissance_4.webp",
-        "alt":"projet pokedex Js"
+        "alt":"projet pokedex Js",
+        "technos":{
+           "C":100
+        },
+        "avis":"C'était marrant de mettre en place une stratégie de jeu que me bot soit viable face a un humain",
+        "role":"Tout, car je suis seul pour le réaliser"
     }
 ]
