@@ -2,6 +2,7 @@
 nav{
   width: 700px;
   margin: 15px auto 5px auto;
+  justify-content: center;
 }
 
 nav > a{

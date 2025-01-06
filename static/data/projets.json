@@ -2,59 +2,118 @@
     {
         "idProjet":1,
         "titre":"Pokedex Js",
-        "objectif":"Développer une appli web en JS pour avoir le pokdex national de Pokemon filtrable par différent critères",
-        "description":"L'objectif de ce projet est de construire une WebApp qui affichera des informations sur les Pokémons, et permettra de rechercher, trier, filtrer les Pokémons et leurs informations en fonction de divers critères qui vous seront détaillés ultérieurement. Cette WebApp permettra en outre de simuler des affrontements entre Pokémons dans une version simplifiée. Une WebApp est une page web qui se comporte comme une application traditionnelle, à savoir un rafraîchissement dynamique du contenu affiché sans faire appel à des chargements de nouvelles pages HTML. Une telle application porte aussi le nom d’Application Web Monopage (Single Page App). Vous aurez à manipuler le DOM. Les données qui serviront à remplir votre application proviendront d’un API Web Service.",
+        "objectif":"Développer une appli web en JS pour avoir le pokedex national de Pokemon filtrable par différent critères",
+        "description":[
+            {
+                "texte":"L'objectif de ce projet est de construire une WebApp qui affichera des informations sur les Pokémons, et permettra de rechercher, trier, filtrer les Pokémons et leurs informations en fonction de divers critères tels que par statistiques (attaque, défense, pv ...), par nom, par génération de pokémon ..."
+            },
+            {
+                "texte":"Cette WebApp permettra en outre de simuler des affrontements entre Pokémons dans une version simplifiée. Une WebApp est une page web qui se comporte comme une application traditionnelle, à savoir un rafraîchissement dynamique du contenu affiché sans faire appel à des chargements de nouvelles pages HTML. Une telle application porte aussi le nom d’Application Web Monopage (Single Page App). Vous aurez à manipuler le DOM. Les données qui serviront à remplir votre application proviendront d’un API Web Service."
+            }
+        ],
         "images":"/images/pokedex.png",
         "alt":"projet pokedex Js",
-        "technos":{
-            "Javascript":98,
-            "Html":2
-        },
+        "technos":[
+            {
+                "titre":"Javascript",
+                "pourcentage":98
+            },
+            {
+                "titre":"HTML",
+                "pourcentage":2
+            }
+        ],
         "avis":"Très bon projet pour apprendre le Javascript et très amusant à réaliser en tant que fan de Pokemon",
-        "role":"Chef de projet / developpeur dans une équipe de 2"
+        "role":["Chef de projet", "Développeur"],
+        "tags": ["Projet en groupe", "~50h", "2 personnes", "12 mars 2024"]
     },
     {
         "idProjet":2,
         "titre":"Portfolio",
-        "objectif":"Avoir un site à mon image viable pour chercher du travail",
-        "description":"Réaliser un site web à mon image pour me présenter et rassembler mes compétences afin de s'en servir comme support, notamment dans la recherche de travail",
+        "objectif":"Réaliser une webApp avec les technologies de son choix pour réaliser un portfolio me représentant dans un cadre universitaire",
+        "description":[
+            {
+                "texte":"Réaliser un site web à mon image pour me présenter et rassembler mes compétences ainsi que mes projets afin de s'en servir comme support, notamment dans la recherche de travail"
+            },
+            {
+                "texte":"Utiliser de nouvelles technologies ou langages pour diversifier celles que l'ont connait et apprendre de nouveaux outils afin d'étendre ses connaissances dans la mise ne place et réalisation du projet"
+            }
+        ],
         "images":"/images/portfolio.png",
         "alt":"Projet Portfolio",
-        "technos":{
-            "Vue":50,
-            "Javascript":30,
-            "Css":20
-        },
+        "technos":[
+            {
+                "titre":"Vue",
+                "pourcentage":50
+            },
+            {
+                "titre":"Javascript",
+                "pourcentage":30
+            },
+            {
+                "titre":"CSS",
+                "pourcentage":20
+            }
+        ],
         "avis":"J'ai beaucoup aimé faire mon Portfolio, car il est à mon image",
-        "role":"Tout, car je suis seul pour le réaliser"
+        "role":["Développeur"],
+        "tags": ["Projet personnel", "~30h", "1 personne", "4 déc. 2024"]
     },
     {
         "idProjet":3,
-        "titre":"Cheval Blanc",
+        "titre":"Alhaiz Breizh",
         "objectif":"",
-        "description":"",
+        "description":[
+            {
+                "texte": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+            }
+        ],
         "images":"/images/chevalBlanc.svg",
         "alt":"Logo site de location de maison",
-        "technos":{
-            "Php":50,
-            "Laravel":20,
-            "PostgresSQL":20,
-            "Css":10
-        },
+        "technos":[
+            {
+                "titre":"Php",
+                "pourcentage":50
+            },
+            {
+                "titre":"Laravel",
+                "pourcentage":20
+            },
+            {
+                "titre":"PostgresSQL",
+                "pourcentage":20
+            },
+            {
+                "titre":"CSS",
+                "pourcentage":10
+            }
+        ],
         "avis":"Projet sympa hormis le choix de laravel qui a rendus le projet plus difficile et long à mettre en plus",
-        "role":"Product Owner / développeur sur une équipe de 6"
+        "role":["Chef de projet", "Développeur"],
+        "tags": ["Travail de groupe", "~300h", "6 personnes", "xxx"]
     },
     {
         "idProjet":4,
         "titre":"puissance 4",
-        "objectif":"",
-        "description":"",
+        "objectif":"Développer un programme en C pour jouer au puissance 4 contre un adversaire ou un robot",
+       "description":[
+            {
+                "texte": "Développer un programme permettant à deux personnes de disputer une partie de Puissance4, ou permettre à une personne d'affronter une ia."
+            },
+            {
+                "texte": "Cet algorithme est développer en C et doit incorporer une interface graphique intuituve pour jouer, même des enfants doivent pouvoir utiliser votre programme."
+            }
+        ],
         "images":"/images/puissance_4.webp",
-        "alt":"projet pokedex Js",
-        "technos":{
-           "C":100
-        },
-        "avis":"C'était marrant de mettre en place une stratégie de jeu que me bot soit viable face a un humain",
-        "role":"Tout, car je suis seul pour le réaliser"
+        "alt":"Projet puissance 4",
+        "technos":[
+            {
+                "titre":"C",
+                "pourcentage":100
+            }
+        ],
+        "avis":"C'était marrant de mettre en place une stratégie de jeu que le robot reste viable face a un humain",
+        "role":["Développeur"],
+        "tags": ["Projet solo", "~20h", "1 personne", "Décembre 2023"]
     }
 ]
