@@ -22,18 +22,20 @@
     else
     {
       pageActive = pageActiveList[0]
-      if(pageActive.id === "a-propos")
-      {
-        pageActive.classList.add("pageActiveAbout");
-      }
-      else if(pageActive.id === "projets")
-      {
-        pageActive.classList.add("pageActiveProjet");
-      }
-      else
-      {
-        pageActive.classList.add("pageActiveProjet");
-      }
+      if(pageActive !== undefined){   
+        if(pageActive.id === "a-propos")
+        {
+          pageActive.classList.add("pageActiveAbout");
+        }
+        else if(pageActive.id === "projets")
+        {
+          pageActive.classList.add("pageActiveProjet");
+        }
+        else
+        {
+          pageActive.classList.add("pageActiveProjet");
+        }
+      } 
     }
 
     

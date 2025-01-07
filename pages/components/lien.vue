@@ -22,6 +22,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 5px;
+    color: black;
 }
 
 .lien-img{
