@@ -1,4 +1,5 @@
 <template>
+
     <Head>
         <Title>Projets</Title>
     </Head>
@@ -7,19 +8,14 @@
     <main id="projet" class="main">
         <div v-for="projet in projets" class="container-projet">
             <div class="container-image-projet">
-                <NuxtImg 
-                    :src="projet.images"
-                    :alt="projet.alt"
-                    :placeholder="[50, 25, 75, 5]"
-                    fit="inside"
-                    class="image-projet"
-                    />
+                <NuxtImg :src="projet.images" :alt="projet.alt" :placeholder="[50, 25, 75, 5]" fit="inside"
+                    class="image-projet" loading="lazy" />
             </div>
             <p class="separateur-vertical" id="sep-projet"></p>
             <div class="description-projet">
                 <h2 class="titreProjet">{{ projet.titre }}</h2>
                 <div>
-                    <span class="texteBrut"><strong>Objectif : </strong>{{  projet.objectif }}</span>
+                    <span class="texteBrut"><strong>Objectif : </strong>{{ projet.objectif }}</span>
                 </div>
                 <div class="container-description">
                     <p class="texteBrut" v-for="descr in projet.description">{{ descr.texte }}</p>
@@ -31,7 +27,7 @@
                 </div>
                 <div class="container-more">
                     <NuxtLink :to="`projets/${projet.idProjet}`" class="savoir-plus">Voir plus</NuxtLink>
-                </div>   
+                </div>
             </div>
         </div>
     </main>

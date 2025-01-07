@@ -2,13 +2,8 @@
     <NuxtLink :to="`projets/${projet.idProjet}`">
         <div class="project-tile">
             <div>
-                <NuxtImg 
-                        :src="projet.images"
-                        :alt="projet.alt"
-                        :placeholder="[50, 25, 75, 5]"
-                        fit="inside"
-                        class="projet-tile-img"
-                    />
+                <NuxtImg :src="projet.images" :alt="projet.alt" :placeholder="[50, 25, 75, 5]" fit="inside"
+                    class="projet-tile-img" loading="lazy" />
             </div>
             <div class="container-lien">
                 <p class="lien-proj" :class="classP">{{ projet.titre }}</p>
