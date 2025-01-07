@@ -3,9 +3,6 @@
         <div id="titre">
             <h1>Portfolio</h1>
         </div>
-        <div>
-            <NuxtLink id="homeAccueil" class="lien" to="/"></NuxtLink>
-        </div>
     </header>
     <hr class="separateur">
 </template>

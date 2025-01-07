@@ -12,6 +12,11 @@ h1, h2, h3, h4, h5{
 
 p, span, strong, a{
     font-family: "Noto Sans JP", serif;
+    text-align: justify;
+}
+
+strong{
+  font-weight: 900;
 }
 
 .separateur{
@@ -23,7 +28,7 @@ p, span, strong, a{
 
 
 .main{
-  padding: 5px 0 5px 0;
+  padding: 20px 0 5px 0;
   margin: 20px 0 20px 0;
   background-color: #f8e4f7;
 }
@@ -129,11 +134,11 @@ content: url(/images/svg/comp.svg);
 }
 
 .pageActiveProjet{
-  background-color: #ec14e2;
+  background-color: #D7F7D8;
 }
 
-.pageActiveProjet{
-  background-color: #02e815e8;
+.pageActiveComp{
+  background-color: #61fe00;
 }
 
 

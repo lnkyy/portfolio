@@ -24,11 +24,6 @@ header > #titre{
     margin: auto;
 }
 
-#homeAccueil::before{
-    content: url(/images/svg/house48.svg);
-
-}
-
 
 @media screen and (max-width: 1080px) {
     header > h1{
@@ -42,22 +37,12 @@ header > #titre{
     header > h1{
         font-size: 24px;
     }
-
-    #homeAccueil::before{
-        content: url(/images/svg/house36.svg);
-    
-    }
     
   }
 
   @media screen and (max-width: 600px) {
     header > h1{
         font-size: 24px;
-    }
-
-    #homeAccueil::before{
-        content: url(/images/svg/house36.svg);
-    
     }
     
   }
