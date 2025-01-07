@@ -13,6 +13,11 @@
         ],
         "images":"/images/pokedex.png",
         "alt":"projet pokedex Js",
+        "banner":
+        {
+            "img":"/images/pokedex_banner.jpg",
+            "alt":"image representant le projet pokedex"
+        },
         "technos":[
             {
                 "titre":"Javascript",
@@ -41,6 +46,11 @@
         ],
         "images":"/images/portfolio.png",
         "alt":"Projet Portfolio",
+        "banner":
+        {
+            "img":"/images/pokedex_banner.jpg",
+            "alt":"image representant le projet pokedex"
+        },
         "technos":[
             {
                 "titre":"Vue",
@@ -70,6 +80,11 @@
         ],
         "images":"/images/chevalBlanc.svg",
         "alt":"Logo site de location de maison",
+        "banner":
+        {
+            "img":"/images/pokedex_banner.jpg",
+            "alt":"image representant le projet pokedex"
+        },
         "technos":[
             {
                 "titre":"Php",
@@ -106,6 +121,11 @@
         ],
         "images":"/images/puissance_4.webp",
         "alt":"Projet puissance 4",
+        "banner":
+        {
+            "img":"/images/pokedex_banner.jpg",
+            "alt":"image representant le projet pokedex"
+        },
         "technos":[
             {
                 "titre":"C",

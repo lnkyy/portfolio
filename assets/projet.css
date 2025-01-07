@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
-    background-color: #D7F7D8;
+    background-color: #E5FBFD;
     margin: 10px 50px 0 50px;
     border: 1px solid black;
     border-radius: 20px;
@@ -68,6 +68,7 @@
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
+    align-items: center; /*potentiellement à dégager en fonction des effets de bords*/
 }
 
 .tile-tag{
@@ -91,6 +92,104 @@
     margin: 10px;
 }
 
+.tempo{
+    background-color: cadetblue;
+}
+
+.container-detail{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 0 20px;
+    margin: 20px;
+    gap: 50px;
+    background-color: #E5FBFD;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.container-detail-projet{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px 0;
+    width: 50%;
+    gap: 15px;
+}
+
+.container-title{
+    margin: 15px 0;
+}
+
+.projet-detail{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0 0 30px ;
+    gap: 10px;
+}
+
+.container-role-tag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.role{
+    font-size: 20px;
+}
+
+.role-tag{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+    transition: all 0.5s ease;
+
+    p{
+        margin: 10px 0;
+    }
+}
+
+.role-tag:hover{
+    background-color: hsl(261deg 80% 48%);
+    color: #fff;
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+    scale: 1.05;
+}
+
+.container-tile-role {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.container-banner-projet{
+    width: 100%;
+}
+
+.banner-projet{
+    width: inherit;
+    border-radius: 10px;
+}
+
+.titre-detail-projet{
+    font-size: 28px;
+}
+
+.container-tag-img-projet{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 @media screen and (max-width: 1080px){
    
