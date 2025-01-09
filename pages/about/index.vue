@@ -28,19 +28,28 @@
                     :placeholder="[50, 25, 75, 5]" fit="inside" id="moi-dresseur" loading="lazy" />
             </div>
         </div>
-        <div class="block-info about-block">
-            <p>Ajouter tout les langages que j'ai déjà utilisé à ajouter dans un nouveau Json</p>
+        <div class="about-block column" id="technos-container">
+            <div class="titre-comp">
+                <h3>Compétences :</h3>
+            </div>
+            <div class="container-tile-technos">
+                <div class="tile-techno" v-for="lang in technos">
+                    <NuxtImg :src="`${lang.logo}`" :alt="`logo de ${lang.titre}`" :placeholder="[50, 25, 75, 5]"
+                        fit="inside" loading="lazy" class="logo-techno" />
+                    <p class="texteBrut">{{ lang.titre }}</p>
+                </div>
+            </div>
         </div>
         <div class=" block-info about-block column">
             <div class="cent">
-                <div>
+                <div class="container-radio">
                     <label for="radioEtudes" class="labelReseaux">
                         <input type="radio" v-model="aboutRadio" value="Etudes" id="radioEtudes" name="aboutRadio">
-                        <span>Etudes</span>
+                        <span class="name">Etudes</span>
                     </label>
                     <label for="radioReseaux" class="labelReseaux">
                         <input type="radio" v-model="aboutRadio" value="Reseaux" id="radioReseaux" name="aboutRadio">
-                        <span>Réseaux</span>
+                        <span class="name">Réseaux</span>
                     </label>
                 </div>
                 <hr class="separateur-plat" />
@@ -87,7 +96,8 @@
 <script setup>
     import '~/assets/about.css';
     import texteIntroJson from '~/static/data/texteIntro.json';
-    import listeReseaux from '~/static/data/listeReseaux.json';
+    import listeReseaux from '~/static/data/listeReseaux.json'; 
+    import technos from '~/static/data/competences.json'; 
 
     import Header from '../components/header.vue'
     import navBar from '../components/navBar.vue';
@@ -97,8 +107,7 @@
     let texteIntro = texteIntroJson.description;
     let complement = texteIntroJson.complement;
     let reseaux= ref(listeReseaux);
-    let aboutRadio = ref('');
-
+    let aboutRadio = ref('Etudes');
 
 
 </script>
