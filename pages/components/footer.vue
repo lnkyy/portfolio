@@ -5,7 +5,7 @@
             <div class="footer-ul-container">
                 <p>Pages</p>
                 <ul>
-                    <li><NuxtLink to="/">Acceuil</NuxtLink></li>
+                    <li><NuxtLink to="/">Accueil</NuxtLink></li>
                     <li><NuxtLink to="/projets">Projets</NuxtLink></li>
                     <li><NuxtLink to="/about">A propos</NuxtLink></li>
                     <li><NuxtLink to="/competences">Compétences</NuxtLink></li>

@@ -58,6 +58,7 @@
 
 .labelReseaux{
     margin:0 10px;
+    border-radius: 8px;
 }
 
 .block-gauche{
@@ -117,6 +118,100 @@
 #about-sep-plat{
     display: none;
 }
+
+.container-tile-technos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tile-techno{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+    border: 1px solid #2e2c2c;
+    border-radius: 20px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    filter: invert(90%) sepia(47%) saturate(2944%) hue-rotate(216deg) brightness(100%) contrast(95%);
+    background-color: #fff;
+    transition: all 0.5s ease;
+}
+
+.tile-techno:hover{
+    scale: 1.08;
+    filter: invert(100%) sepia(16%) saturate(7220%) hue-rotate(173deg) brightness(105%) contrast(103%);
+}
+
+.tile-techno > .logo-techno{
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 8px;
+}
+
+.titre-comp{
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 0 0 0 30px;
+}
+
+#technos-container{
+    margin: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px black solid;
+}
+
+.container-radio{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container-radio .labelReseaux input {
+    display: none;
+}
+
+.container-radio .labelReseaux .name {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border: none;
+    padding: .5rem 10px;
+    color: rgba(51, 65, 85, 1);
+    transition: all .15s ease-in-out;
+    margin: 5px;
+    border-bottom: 1px solid black;
+    transition: all 0.5s ease;
+}
+
+.container-radio .labelReseaux .name:hover {
+    background-color: #fff;
+    color: #000;
+    scale: 1.10;
+}   
+
+.container-radio .labelReseaux input:checked+.name {
+    background-color: #fff;
+    font-weight: 600;
+}
+
 
 @media screen and (max-width: 1080px) {
     #container-pp-about{

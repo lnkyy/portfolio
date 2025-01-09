@@ -1,22 +1,18 @@
 <template>
+
     <Head>
-        <Title>Acceuil</Title>
+        <Title>Accueil</Title>
     </Head>
     <Header></Header>
     <navBar></navBar>
     <main id="accueil" class="main">
         <div class="acceuil-block block-info" id="container-block-intro">
             <div class="un-tier intro">
-                <NuxtImg 
-                    src="/images/Marius.jpg"
-                    alt="image de ma tête"
-                    :placeholder="[50, 25, 75, 5]"
-                    fit="inside"
-                    id="container-pp"
-                    />
+                <NuxtImg src="/images/Marius.jpg" alt="image de ma tête" :placeholder="[50, 25, 75, 5]" fit="inside"
+                    id="container-pp" loading="lazy" />
             </div>
             <p class="separateur-vertical" id="acceuil-sep"></p>
-            <hr class="separateur-plat" id="acceuil-sep-plat"/>
+            <hr class="separateur-plat" id="acceuil-sep-plat" />
             <div class="deux-tier intro" id="container-texte">
                 <div id="container-intro">
                     <p class="texte-intro">{{ texteIntro }}</p>

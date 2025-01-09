@@ -37,7 +37,6 @@ strong{
   margin: 30px ;
   padding: 10px;
   display: flex;
-  flex-direction: row;
   align-items: center;
 
   border-radius: 20px;
@@ -134,11 +133,15 @@ content: url(/images/svg/comp.svg);
 }
 
 .pageActiveProjet{
-  background-color: #D7F7D8;
+  background-color: #E5FBFD;
 }
 
 .pageActiveComp{
   background-color: #61fe00;
+}
+
+.texteBrut {
+  margin: 0;
 }
 
 

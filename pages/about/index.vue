@@ -1,25 +1,20 @@
 <template>
+
     <Head>
         <Title>à propos</Title>
     </Head>
     <Header></Header>
     <navBar></navBar>
     <main class="main" id="about">
-        <div class="about-container" >
+        <div class="about-container">
             <div class="quatre-vingt">
                 <div class="about-block  block-info">
                     <div class="un-tier intro">
-                        <NuxtImg 
-                            src="/images/Marius.jpg"
-                            alt="image de ma tête"
-                            :placeholder="[50, 25, 75, 5]"
-                            fit="inside"
-                            id="container-pp-about"
-                            loading="lazy"
-                            />
+                        <NuxtImg src="/images/Marius.jpg" alt="image de ma tête" :placeholder="[50, 25, 75, 5]"
+                            fit="inside" id="container-pp-about" loading="lazy" />
                     </div>
-                    <p class="separateur-vertical" id="about-sep" ></p>
-                    <hr class="separateur-plat" id="about-sep-plat"/>
+                    <p class="separateur-vertical" id="about-sep"></p>
+                    <hr class="separateur-plat" id="about-sep-plat" />
                     <div class="deux-tier intro" id="container-texte">
                         <p class="text-about">{{ texteIntro }}</p>
                     </div>
@@ -29,42 +24,48 @@
                 </div>
             </div>
             <div class="vingt">
-                <NuxtImg 
-                    src="/images/moi_transparent.png"
-                    alt="moi en dresseur de pokémon"
-                    :placeholder="[50, 25, 75, 5]"
-                    fit="inside"
-                    id="moi-dresseur"
-                    loading="lazy"
-                    />
+                <NuxtImg src="/images/moi_transparent.png" alt="moi en dresseur de pokémon"
+                    :placeholder="[50, 25, 75, 5]" fit="inside" id="moi-dresseur" loading="lazy" />
             </div>
         </div>
-        <div  class=" block-info about-block column">
+        <div class="about-block column" id="technos-container">
+            <div class="titre-comp">
+                <h3>Compétences :</h3>
+            </div>
+            <div class="container-tile-technos">
+                <div class="tile-techno" v-for="lang in technos">
+                    <NuxtImg :src="`${lang.logo}`" :alt="`logo de ${lang.titre}`" :placeholder="[50, 25, 75, 5]"
+                        fit="inside" loading="lazy" class="logo-techno" />
+                    <p class="texteBrut">{{ lang.titre }}</p>
+                </div>
+            </div>
+        </div>
+        <div class=" block-info about-block column">
             <div class="cent">
-                <div>
+                <div class="container-radio">
                     <label for="radioEtudes" class="labelReseaux">
                         <input type="radio" v-model="aboutRadio" value="Etudes" id="radioEtudes" name="aboutRadio">
-                        <span>Etudes</span>
+                        <span class="name">Etudes</span>
                     </label>
                     <label for="radioReseaux" class="labelReseaux">
                         <input type="radio" v-model="aboutRadio" value="Reseaux" id="radioReseaux" name="aboutRadio">
-                        <span>Réseaux</span>
+                        <span class="name">Réseaux</span>
                     </label>
                 </div>
-                <hr class="separateur-plat"/>
+                <hr class="separateur-plat" />
             </div>
             <div v-if="aboutRadio === 'Etudes'" class="container-tiles-reseaux">
                 <h2 class="block-gauche">Mes Études</h2>
                 <div class="list-etudes">
-                    <div >
+                    <div>
                         <p>
                             <span>- 2021 - 2022 : </span>
                             <span>Bac général Spécialité NSI & Mathématique mention Assez bien</span>
-                        </p>   
+                        </p>
                         <p>
                             <span>- 2021 - 2022 : </span>
                             <span>Diplome du Cambridge Niveau B2</span>
-                        </p>   
+                        </p>
                         <p>
                             <span>- 2022 - 2025 : </span>
                             <span>But informatique à l'iut de Lannion</span>
@@ -72,7 +73,7 @@
                         <p>
                             <span>- 2023 - 2025 : </span>
                             <span>Alternant à CGi</span>
-                        </p>     
+                        </p>
                     </div>
                 </div>
             </div>
@@ -81,25 +82,22 @@
                 <div class="container-tiles">
                     <div v-for="reseau in reseaux" class="tile-reseau">
                         <NuxtLink :to="reseau.lien" class="tile-reseau-lien">
-                            <NuxtImg
-                                :src="reseau.logo"
-                                :alt="`Logo de ${reseau.nom}`"
-                                class="img-reseau"
-                                loading="lazy"
-                            />
+                            <NuxtImg :src="reseau.logo" :alt="`Logo de ${reseau.nom}`" class="img-reseau"
+                                loading="lazy" />
                             <p>{{ reseau.nom }}</p>
                         </NuxtLink>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </main>
     <Footer></Footer>
 </template>
 <script setup>
     import '~/assets/about.css';
     import texteIntroJson from '~/static/data/texteIntro.json';
-    import listeReseaux from '~/static/data/listeReseaux.json';
+    import listeReseaux from '~/static/data/listeReseaux.json'; 
+    import technos from '~/static/data/competences.json'; 
 
     import Header from '../components/header.vue'
     import navBar from '../components/navBar.vue';
@@ -109,8 +107,7 @@
     let texteIntro = texteIntroJson.description;
     let complement = texteIntroJson.complement;
     let reseaux= ref(listeReseaux);
-    let aboutRadio = ref('');
-
+    let aboutRadio = ref('Etudes');
 
 
 </script>
