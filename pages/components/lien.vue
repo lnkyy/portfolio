@@ -1,11 +1,7 @@
 <template>
-  <p class="lien-proj" :class="classP">{{ titre }} <NuxtLink class="lien" :to="`${lien}`">
-          <NuxtImg
-              src="/images/svg/lien.svg"
-              alt="lien"
-              class="lien-img"
-          />
-      </NuxtLink>
+  <p class="lien-proj" :class="classP">{{ titre }} <NuxtLink class="lien" :to="`${lien}`" target="_blank">
+      <NuxtImg src="/images/svg/lien.svg" alt="lien" class="lien-img" />
+    </NuxtLink>
   </p>
 </template>
 <script setup>

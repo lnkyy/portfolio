@@ -17,6 +17,10 @@
     display: block;
 }
 
+#pokeball-sep-plat{
+    display: none;
+}
+
 @media screen and (max-width: 1080px) {
     .pokeball-div {
         display: flex;
@@ -34,8 +38,20 @@
     
   }
 
+  @media screen and (max-width:600px) {
+
+    #pokeball-div-container{
+        flex-direction: column;
+    }
+
+    #pokeball-sep-plat {
+            display: block;
+        }
+  }
+
 
  .texteGauche{
     width: 100%;
     text-align: left;
  }
+

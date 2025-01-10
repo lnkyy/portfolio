@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="retour-container lien-projet" v-if="projet.lienProjet !== '' ">
-        <NuxtLink class="savoir-plus" :to="`${projet.lienProjet}`">Accéder au code source</NuxtLink>
+        <NuxtLink class="savoir-plus" :to="`${projet.lienProjet}`" target="_blank">Accéder au code source</NuxtLink>
       </div>
       <div v-else class="retour-container lien-projet">
         <p class="savoir-plus pointeur-normal">le code n'est pas stocké</p>
