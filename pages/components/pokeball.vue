@@ -2,12 +2,14 @@
     <div class="pokeball-div">
         <canvas id="pokeball" ref="pokeball"></canvas>
     </div>
-    <div class="pokeball-div" id="bonus" >
+    <hr class="separateur-plat" id="pokeball-sep-plat" />
+    <div class="pokeball-div" id="bonus">
         <p class="text-about" id="pokeball-texte">
             <span>Voici un modèle 3D d'une pokeball réalisé avec Blender qui tourne sur elle même. </span>
             <span>Ceci a été réaliser pour m'amuser sur mon temps libre. La librairie utilisé est Three js.</span>
         </p>
-        <Lien titre="Vous pouvez cliquer sur le lien pour accèder à la librairie" lien="https://threejs.org" classP="texteGauche text-about"></Lien>
+        <Lien titre="Vous pouvez cliquer sur le lien pour accèder à la librairie" lien="https://threejs.org"
+            classP="texteGauche text-about"></Lien>
     </div>
 </template>
 <script setup>

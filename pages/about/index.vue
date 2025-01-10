@@ -81,7 +81,7 @@
                 <h2 class="block-gauche">Mes Réseaux</h2>
                 <div class="container-tiles">
                     <div v-for="reseau in reseaux" class="tile-reseau">
-                        <NuxtLink :to="reseau.lien" class="tile-reseau-lien">
+                        <NuxtLink :to="reseau.lien" class="tile-reseau-lien" target="_blank">
                             <NuxtImg :src="reseau.logo" :alt="`Logo de ${reseau.nom}`" class="img-reseau"
                                 loading="lazy" />
                             <p>{{ reseau.nom }}</p>

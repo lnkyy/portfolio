@@ -78,7 +78,6 @@
 }
 
 .img-reseau{
-    width: 100px;
     height: 100px;
 }
 
@@ -212,6 +211,14 @@
     font-weight: 600;
 }
 
+.lien-projet{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pointeur-normal{
+    cursor: default;
+}
 
 @media screen and (max-width: 1080px) {
     #container-pp-about{
@@ -247,6 +254,39 @@
     
 }
 
+
+@media screen and (max-width: 700px) {
+    .container-detail-top{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-detail-projet{
+        width: 100%;
+    }
+    .container-tag-img-projet{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-role-tag{
+        margin: 0 0 10px 0;
+        gap: 10px;
+    }
+
+    .role-tag{
+        width: 100px;
+        height: 60px;
+        p{
+            margin: 0;
+        }
+    }
+
+    .container-tile-tag{
+        justify-content: center;
+    }
+}
 
 
 @media screen and (max-width: 600px) {
