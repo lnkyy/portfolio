@@ -9,8 +9,8 @@
     <div class="container-detail">
       <div class="retour-container">
         <NuxtLink id="retour" class="savoir-plus" to="/projets">
-          <NuxtImg src="/images/svg/fleche_retour.svg" alt="retour en arrière" :placeholder="[50, 25, 75, 5]" fit="inside"
-            loading="lazy" id="retour-img"/>
+          <NuxtImg src="/images/svg/fleche_retour.svg" alt="retour en arrière" :placeholder="[50, 25, 75, 5]"
+            fit="inside" loading="lazy" id="retour-img" />
         </NuxtLink>
       </div>
       <div class="container-detail-top">
@@ -63,6 +63,12 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="retour-container lien-projet" v-if="projet.lienProjet !== '' ">
+        <NuxtLink class="savoir-plus" :to="`${projet.lienProjet}`">Accéder au code source</NuxtLink>
+      </div>
+      <div v-else class="retour-container lien-projet">
+        <p class="savoir-plus pointeur-normal">le code n'est pas stocké</p>
       </div>
     </div>
   </main>

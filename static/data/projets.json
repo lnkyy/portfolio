@@ -36,7 +36,7 @@
         "avis":"Très bon projet pour apprendre le Javascript et très amusant à réaliser en tant que fan de Pokemon",
         "role":["Chef de projet", "Développeur"],
         "tags": ["Projet en groupe", "~50h", "2 personnes", "12 mars 2024"],
-        "lien-projet":"https://youtube.com"
+        "lienProjet":"https://github.com/lnkyy/Pokemon"
     },
     {
         "idProjet":2,
@@ -80,15 +80,18 @@
         "avis":"J'ai beaucoup aimé faire mon Portfolio, car il est à mon image",
         "role":["Développeur"],
         "tags": ["Projet personnel", "~30h", "1 personne", "4 déc. 2024"],
-        "lien-projet":"https://youtube.com"
+        "lienProjet":"https://github.com/lnkyy/portfolio/"
     },
     {
         "idProjet":3,
         "titre":"Alhaiz Breizh",
-        "objectif":"",
+        "objectif":"Réaliser en équipe de 6 la réalisation d'un site fonctionnel front et back de location de logements de vacances spécialisé en Bretagne",
         "description":[
             {
-                "texte": "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem "
+                "texte": "Réaliser un site web front et back pour pouvoir réserver des logements façon airbnb avec toute la gestion de compte, la gestion de logements, la créatoin de facture, la prise en compte d'annulation, la gestion de conflits sur la réservation au même moment par 2 personnes ..."
+            },
+            {
+                "texte":"Tout cela dans une équipe de 6 personnes en Agile avec la mise en place du backlog, des dailys, du planning, et la mise en place des différents rôles tels que Product Owner, Scrum master, développeur ... "
             }
         ],
         "images":"/images/chevalBlanc.svg",
@@ -125,9 +128,9 @@
             }
         ],
         "avis":"Projet sympa hormis le choix de laravel qui a rendus le projet plus difficile et long à mettre en plus",
-        "role":["Chef de projet", "Développeur"],
+        "role":["Product Owner", "Développeur"],
         "tags": ["Travail de groupe", "~300h", "6 personnes", "xxx"],
-        "lien-projet":"https://youtube.com"
+        "lienProjet":"https://youtube.com"
     },
     {
         "idProjet":4,
@@ -159,6 +162,6 @@
         "avis":"C'était marrant de mettre en place une stratégie de jeu que le robot reste viable face a un humain",
         "role":["Développeur"],
         "tags": ["Projet solo", "~20h", "1 personne", "Décembre 2023"],
-        "lien-projet":"https://youtube.com"
+        "lienProjet":""
     }
 ]
