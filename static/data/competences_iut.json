@@ -1,0 +1,32 @@
+[
+    {
+        "nom":"Réaliser",
+        "description":"lorem ipsum ...",
+        "objectif":["Faire une appli","optimiser","lorem"]
+    },
+    {
+      "nom": "Optimiser",
+      "description": "lorem ipsum ...",
+      "objectif": ["Faire une appli", "optimiser", "lorem"]
+    },
+    {
+      "nom": "Analyser",
+      "description": "lorem ipsum ...",
+      "objectif": ["Faire une appli", "optimiser", "lorem"]
+    },
+    {
+      "nom": "BDD",
+      "description": "lorem ipsum ...",
+      "objectif": ["Faire une appli", "optimiser", "lorem"]
+    },
+    {
+      "nom": "Gestion de projets",
+      "description": "lorem ipsum ...",
+      "objectif": ["Faire une appli", "optimiser", "lorem"]
+    },
+    {
+      "nom": "Travailler dans une équipe",
+      "description": "lorem ipsum ...",
+      "objectif": ["Faire une appli", "optimiser", "lorem"]
+    }
+]

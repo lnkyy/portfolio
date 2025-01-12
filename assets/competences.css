@@ -1,0 +1,17 @@
+
+
+.container-list-competences{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+}
+
+.container-competence{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 30px 10px 30px;
+    border: 1px, solid black; /*changer la couleur et potentiellement juste la border complete*/
+    border-radius: 15px;
+    background-color: aquamarine; /*à dégager*/
+}
