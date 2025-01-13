@@ -1,9 +1,9 @@
 
 
 .container-list-competences{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .container-competence{

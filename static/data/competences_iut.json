@@ -1,32 +1,38 @@
 [
     {
+        "idCompetence": 1,
         "nom":"Réaliser",
-        "description":"lorem ipsum ...",
-        "objectif":["Faire une appli","optimiser","lorem"]
+        "description":"Développer, c'est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.",
+        "objectif":["Réaliser","optimiser","Tester", "Intégrer"]
     },
     {
+      "idCompetence": 2,
       "nom": "Optimiser",
-      "description": "lorem ipsum ...",
-      "objectif": ["Faire une appli", "optimiser", "lorem"]
+      "description": "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources.",
+      "objectif": ["Optimiser", "Calculer", "Temps d'exécution"]
     },
     {
-      "nom": "Analyser",
-      "description": "lorem ipsum ...",
-      "objectif": ["Faire une appli", "optimiser", "lorem"]
+      "idCompetence": 3,
+      "nom": "Administrer",
+      "description": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d'une organisation",
+      "objectif": ["Installer", "Configurer", "Maintenir", "Services"]
     },
     {
-      "nom": "BDD",
-      "description": "lorem ipsum ...",
-      "objectif": ["Faire une appli", "optimiser", "lorem"]
+      "idCompetence": 4,
+      "nom": "Gérer",
+      "description": "Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise",
+      "objectif": ["Concevoir", "Administrer", "Exploiter", "Données"]
     },
     {
-      "nom": "Gestion de projets",
-      "description": "lorem ipsum ...",
-      "objectif": ["Faire une appli", "optimiser", "lorem"]
+      "idCompetence": 5,
+      "nom": "Conduire",
+      "description": "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles",
+      "objectif": ["Satisfaire", "Besoins utilisateurs", "Piloter", "Agile"]
     },
     {
-      "nom": "Travailler dans une équipe",
-      "description": "lorem ipsum ...",
-      "objectif": ["Faire une appli", "optimiser", "lorem"]
+      "idCompetence": 6,
+      "nom": "Collaborer",
+      "description": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique",
+      "objectif": ["Exploiter", "Équipes", "Efficace"]
     }
 ]
