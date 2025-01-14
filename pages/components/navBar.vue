@@ -41,7 +41,7 @@
       {
         pageActive.classList.add("pageActiveProjet");
       }
-      else
+      else if (pageActive.id == "comp")
       {
         pageActive.classList.add("pageActiveComp");
       }
