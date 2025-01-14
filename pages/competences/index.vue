@@ -8,18 +8,19 @@
     <main id="comp-main" class="main">
         <div class="container-list-competences">
             <div v-for="competence in listComp" class="container-competence">
-                <div>
-                    <p>{{ competence.idCompetence }}</p>
-                    <p>{{ competence.nom }}</p>
-                    <div>
-                        <div v-for="keyword in competence.objectif">
-                            <p>{{ keyword}}</p>
+                <div class="cinquante">
+                    <p class="idComp texteBrut">#00{{ competence.idCompetence }}</p>
+                    <h2 class="titre-h3">{{ competence.nom }}</h2>
+                    <div class="container-tile-comp">
+                        <div v-for="keyword in competence.objectif" class="tile-comp">
+                            <p class="texteBrut">{{ keyword}}</p>
                         </div>
                     </div>
-                    <p>{{ competence.description }}</p>
+                    <p class="texteCompDescri">{{ competence.description }}</p>
                 </div>
-                <div>
-                    <p>img</p>
+                <div class="container-img-comp">
+                    <NuxtImg :src="`${competence.img.src}`" :alt="`${competence.img.alt}`" :placeholder="[50, 25, 75, 5]"
+                        fit="inside" loading="lazy" />
                 </div>
             </div>
         </div>

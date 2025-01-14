@@ -9,9 +9,89 @@
 .container-competence{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     margin: 0 30px 10px 30px;
-    border: 1px, solid black; /*changer la couleur et potentiellement juste la border complete*/
+    border: 1px, solid #2e2c2c; 
     border-radius: 15px;
-    background-color: aquamarine; /*à dégager*/
+    background-color: #ffbcff;
+    padding: 10px 10px 10px 30px;
+    justify-content: space-evenly;
+}
+
+.idComp{
+    font-weight: 400;
+    font-size: small;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.container-tile-comp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.cinquante{
+    width: auto;
+    text-align: justify;
+}
+
+#gauche{
+    margin-left: 30px;
+}
+
+.tile-comp{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2e2c2c;
+    border-radius: 20px;
+    padding: 8px 15px;
+    background-color: #fff;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+
+.tile-comp:hover{
+    scale: 1.10;
+    cursor: default;
+}
+
+.texteCompDescri{
+    font-size: 16px;
+    margin: 50px 0 0 0;
+}
+
+.container-img-comp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 20px 0 0;
+    transition:all 0.5s ease
+}
+
+.container-img-comp > img{
+    width: 300px;
+    aspect-ratio: 1;
+}
+
+
+@media screen and (max-width: 750px )
+{
+    .container-img-comp{
+        display: none;    
+    }
+
+    .texteCompDescri {
+        font-size: 14px;
+    }
+
+    .container-competence{
+        padding: 10px
+    }
 }

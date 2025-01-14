@@ -3,36 +3,60 @@
         "idCompetence": 1,
         "nom":"Réaliser",
         "description":"Développer, c'est-à-dire concevoir, coder, tester et intégrer — une solution informatique pour un client.",
-        "objectif":["Réaliser","optimiser","Tester", "Intégrer"]
+        "objectif":["Réaliser","optimiser","Tester", "Intégrer"],
+        "img":{
+            "src":"/images/ouvrifier_realiser.png",
+            "alt":"Image de la compétence Réaliser"
+        }
     },
     {
       "idCompetence": 2,
       "nom": "Optimiser",
       "description": "Proposer des applications informatiques optimisées en fonction de critères spécifiques : temps d'exécution, précision, consommation de ressources.",
-      "objectif": ["Optimiser", "Calculer", "Temps d'exécution"]
+      "objectif": ["Optimiser", "Calculer", "Temps d'exécution"],
+      "img": {
+        "src": "/images/ire_foudre_opti.png",
+        "alt": "Image de la compétence Optimiser"
+      }
     },
     {
       "idCompetence": 3,
       "nom": "Administrer",
       "description": "Installer, configurer, mettre à disposition, maintenir en conditions opérationnelles des infrastructures, des services et des réseaux et optimiser le système informatique d'une organisation",
-      "objectif": ["Installer", "Configurer", "Maintenir", "Services"]
+      "objectif": ["Installer", "Configurer", "Maintenir", "Services"],
+      "img": {
+        "src": "/images/terhal_administrer.png",
+        "alt": "Image de la compétence Administrer"
+      }
     },
     {
       "idCompetence": 4,
       "nom": "Gérer",
       "description": "Concevoir, gérer, administrer et exploiter les données de l'entreprise et mettre à disposition toutes les informations pour un bon pilotage de l'entreprise",
-      "objectif": ["Concevoir", "Administrer", "Exploiter", "Données"]
+      "objectif": ["Concevoir", "Administrer", "Exploiter", "Données"],
+      "img": {
+        "src": "/images/psystigri_gerer.png",
+        "alt": "Image de la compétence Gérer"
+      }
     },
     {
       "idCompetence": 5,
       "nom": "Conduire",
       "description": "Satisfaire les besoins des utilisateurs au regard de la chaîne de valeur du client, organiser et piloter un projet informatique avec des méthodes classiques ou agiles",
-      "objectif": ["Satisfaire", "Besoins utilisateurs", "Piloter", "Agile"]
+      "objectif": ["Satisfaire", "Besoins utilisateurs", "Piloter", "Agile"],
+      "img": {
+        "src": "/images/mackogneur_conduire.png",
+        "alt": "Image de la compétence Conduire"
+      }
     },
     {
       "idCompetence": 6,
       "nom": "Collaborer",
       "description": "Acquérir, développer et exploiter les aptitudes nécessaires pour travailler efficacement dans une équipe informatique",
-      "objectif": ["Exploiter", "Équipes", "Efficace"]
+      "objectif": ["Exploiter", "Équipes", "Efficace"],
+      "img": {
+        "src": "/images/famignol_collaborer.png",
+        "alt": "Image de la compétence Collaborer"
+      }
     }
 ]

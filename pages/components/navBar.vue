@@ -27,35 +27,25 @@
   
   onMounted( () => {
     let pageActiveList = document.getElementsByClassName("router-link-active");
-    let boutonHome = document.getElementById("homeAccueil");
-    let pageActive;
+    let pageActive = pageActiveList[0];
 
-    if(pageActiveList[0] === boutonHome)
-    {
-      pageActive = pageActiveList[1]
-      pageActive.classList.add("pageActiveHome");
-    }
-    else
-    {
-      pageActive = pageActiveList[0]
-      if(pageActive !== undefined){   
-        if(pageActive.id === "a-propos")
-        {
-          pageActive.classList.add("pageActiveAbout");
-        }
-        else if(pageActive.id === "projets")
-        {
-          pageActive.classList.add("pageActiveProjet");
-        }
-        else
-        {
-          pageActive.classList.add("pageActiveProjet");
-        }
-      } 
-    }
-
-    
-
+    if (pageActive !== undefined) {
+      if (pageActive.id == "home") {
+        pageActive.classList.add("pageActiveAbout");
+      }   
+      else if(pageActive.id == "a-propos")
+      {
+        pageActive.classList.add("pageActiveAbout");
+      }
+      else if(pageActive.id == "projets")
+      {
+        pageActive.classList.add("pageActiveProjet");
+      }
+      else
+      {
+        pageActive.classList.add("pageActiveComp");
+      }
+    } 
   })
   
 
