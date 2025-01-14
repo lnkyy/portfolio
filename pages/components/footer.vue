@@ -29,22 +29,22 @@
                 <p class="texteBrut">References</p>
                 <ul>
                     <li>
-                        <NuxtLink to="https://nuxt.com">Nuxt</NuxtLink>
+                        <NuxtLink to="https://nuxt.com" target="_blank">Nuxt</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://grafikart.fr">Grafikart</NuxtLink>
+                        <NuxtLink to="https://grafikart.fr" target="_blank">Grafikart</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://lucide.dev/icons/">Lucide</NuxtLink>
+                        <NuxtLink to="https://lucide.dev/icons/" target="_blank">Lucide</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://github.com/lnkyy">Github</NuxtLink>
+                        <NuxtLink to="https://github.com/lnkyy" target="_blank">Github</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://dribbble.com">Dribble</NuxtLink>
+                        <NuxtLink to="https://dribbble.com" target="_blank">Dribble</NuxtLink>
                     </li>
                     <li>
-                        <NuxtLink to="https://uiverse.io">Uiverse</NuxtLink>
+                        <NuxtLink to="https://uiverse.io" target="_blank">Uiverse</NuxtLink>
                     </li>
                 </ul>
             </div>
