@@ -6,7 +6,7 @@
                     class="projet-tile-img" loading="lazy" />
             </div>
             <div class="container-lien">
-                <p class="lien-proj" :class="classP">{{ projet.titre }}</p>
+                <p class="lien-proj" >{{ projet.titre }}</p>
             </div>
         </div>
     </NuxtLink>

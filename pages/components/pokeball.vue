@@ -34,6 +34,7 @@
             antialias : true,
             canvas : pokeball.value,
         });
+        renderer.setSize(320, 225);
 
         renderer.setClearColor( 0xffffff, 0);
 
@@ -95,6 +96,7 @@
 
     onMounted(() => {
         init();
+        document.getElementById("pokeball").style = "";
     })
 
 </script>

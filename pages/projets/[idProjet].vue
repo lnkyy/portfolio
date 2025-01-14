@@ -27,7 +27,9 @@
                 class="banner-projet" loading="lazy" />
             </div>
             <div class="container-projet-tile">
-              <p>projets lié à ajouter sous forme de boucle une fois la page faites pour les JSON</p>
+              <div v-for="competence in projet.competences" class="tile-competence-projet">
+                <p class="texteBrut">{{ competence }}</p>
+              </div>
             </div>
           </div>
         </div>
