@@ -59,7 +59,7 @@
                 <div class="list-etudes">
                     <div>
                         <p>
-                            <span>- 2021 - 2022 : </span>
+                            <span>- 2020 - 2022 : </span>
                             <span>Bac général Spécialité NSI & Mathématique mention Assez bien</span>
                         </p>
                         <p>
