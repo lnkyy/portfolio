@@ -28,7 +28,7 @@
             </div>
             <div class="block-cent">
                 <div class="container-tiles">
-                    <ProjetTile v-for="projet in projets.slice(0, z3)" :projet="projet"></ProjetTile>
+                    <ProjetTile v-for="projet in projets.slice(0, 3)" :projet="projet"></ProjetTile>
                 </div>
                 <div id="comp-container">
                     <NuxtLink to="/projets" class="savoir-plus">Mes projets</NuxtLink>
