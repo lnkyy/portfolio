@@ -165,7 +165,7 @@
     },
     {
       "idProjet": 5,
-      "titre": "BDD Parcoursup",
+      "titre": "Problème du Postier chinois",
       "objectif": "Créer un algorithme en python pour modéliser et résoudre le problème du postier chinois",
       "description": [
         {
@@ -197,7 +197,7 @@
     },
     {
       "idProjet": 6,
-      "titre": "BDD Parcoursup",
+      "titre": "Porjet Transmusical",
       "objectif": "Réaliser, peupler et exploiter une base de données complexe dans un cadre universitaire",
       "description": [
         {
